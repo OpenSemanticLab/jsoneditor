@@ -57,7 +57,7 @@ const compiler = webpack({
   entry: ENTRY,
   target: ['web', 'es5'],
   output: {
-    library: 'JSONEditor',
+    library: 'JSONEditors',
     libraryTarget: 'umd',
     path: DIST,
     filename: NAME + '.js'
@@ -80,7 +80,7 @@ const compilerMinimalist = webpack({
   entry: ENTRY,
   target: ['web', 'es5'],
   output: {
-    library: 'JSONEditor',
+    library: 'JSONEditors',
     libraryTarget: 'umd',
     path: DIST,
     filename: NAME_MINIMALIST + '.js'
